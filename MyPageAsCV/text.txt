@@ -1,0 +1,127 @@
+* HOME
+home__social
+https://www.linkedin.com/in/luis-torres-23669a260/
+https://www.instagram.com/not_qv137/?hl=es
+https://github.com/QuantVortex137
+https://twitter.com/137_Qv
+
+home__title
+Hi, I'm Luis Torres
+home__subtitle
+Physicist, Researcher, Programmer & Data Scientist
+home__description
+High level researcher on high energy physics and 
+applied ANN, machine leaning and statistical analysis algorithms in physics.
+
+
+* ABOUT
+section__subtitle
+Let me introduce myself!
+about__description
+Physicist concerned about avant-garde topics of AI,
+machine learning, nuclear physics and high-energy phycics. 
+Someone who like to learn rigorous science and is a hard-working laboratory man. 
+With great interest on philosophical topics, humanities, and human development.
+
+about__info-name
+Years <br> experience
+Completed <br> project
+Companies <br> worked
+
+
+* SKILLS
+section__subtitle
+My Technical Level
+
+Skills 1 DATA SCIENCE / With 10 years of experience
+Python 89%
+STEM Skills 100%
+Statistical Analysis 90%
+ML & ANN Applied Algorithms 85%
+
+Skills 2 PHYSICS / Applied mathematics on nature
+Quantum Mechanics 80%
+Statistical Mechanics 100%
+High Energy Physics 95%
+Nuclear Physics 90%
+
+Skills 3 MATHEMATICS / My all times abilities
+Advanced Mathematical Analysis 100%
+Calculus 90%
+Geometry 95%
+Linear Algebra 80%
+
+Skills 4 LANGUAGES / My language studies
+Spanish 100%
+English 95%
+French 75%
+German 40%
+
+
+* QUALIFICATION
+section__subtitle
+My Academical & Personal Journey
+EDUCATION
+Degree In Physics / Mexico - Universidad de Guanajuato / 2022 - 2025
+Philosophy Degree / Mexico - Universidad de Guanajuato / 2025 - 2029
+Master of Nuclear Science / Japan - Kyoto Sangyo University "京都産業⼤学" / 2029 - 2033}
+PhD in High Energy Physics / Germany - Universität München / 2033 - 2037
+
+WORK
+Scientific Disseminator / Mexico - Universidad de Guanajuato / 2022 - 2024
+Research Collaboration / Mexico - Universidad de Guanajuato / 2023 - 2026
+Data Scientist / Mexico - Universidad de Guanajuato / 2024 - 2026
+PhyLab Statistics / Mexico - UG & La Salle Collaboration / Since 2024
+
+
+* SERVICES
+section__subtitle
+What I Offer You
+services__modal-service
+
+Services 1 / Data Analysis &<br> Mathematical Modeling
+I write ML algorithms to analyze & manage data.
+Artificial Neural Networks algorithms applied for decision making.
+I describe phenomena with the development of mathematical models.
+I can create benefits for your company.
+
+Services 2 / Instrumentation &<br> Material Synthesis
+
+Services 3 / PhyLab Statistics &<br> SymboPhy
+
+
+* PORTFOLIO
+section__subtitle
+My Recent Work
+
+Portfolio 1 / PhyLab Statistics
+From scientists for scientists, 
+a compendium of algorithms for data analysis, research work, 
+laboratories and processing of the information obtained and/or measured.
+Mostly written in Python, but also including R and C.
+
+Portfolio 2 / SymboPhy
+Deep symbolic regression project 
+inspired by Tenachi's article written about by the Python library PhySo.
+
+Portfolio 3 / Twitter Bot @theGreatPhyBot
+A proyect involving Twitter API's to
+control an account with a bot that periodically generates tweets
+about science and philosophy.
+
+
+* PROJECT
+project__description
+Contact me now and get a 30% discount on your new project.
+
+
+* TESTIMONIAL
+testimonial__description
+I get a good impression, I carry out my project with all the possible quality and attention and support 24 hours a day.
+
+
+* FOOTER
+footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
