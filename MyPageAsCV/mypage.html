@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- ================= UNICONS ================= -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+        <!-- ================= SWIPER CSS ================= -->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+        <!-- ================= CSS ================= -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio Website QV</title>
+    </head>
+    <body>
+        <!-- ================= HEADER ================= -->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Luis</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-airplay nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user-plus nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-panel-add nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-suitcase nav__icon"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-university nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ================= MAIN ================= -->
+        <main class="main">
+            <!-- ================= HOME ================= -->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/luis-torres-23669a260/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/not_qv137/?hl=es" target="_blank" class="home__social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+
+                            <a href="https://github.com/QuantVortex137" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+
+                            <a href="https://twitter.com/137_Qv" target="_blank" class="home__social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#000000" d="M35,-54.4C43.8,-48.8,48.4,-36.5,55.2,-24.4C62.1,-12.2,71.4,-0.3,70.3,10.5C69.3,21.2,58.1,30.9,48.3,41.5C38.5,52.1,30.3,63.6,18.9,69.2C7.4,74.8,-7.2,74.5,-22.9,72.4C-38.6,70.3,-55.3,66.4,-67.6,56.3C-79.8,46.2,-87.6,30,-86.8,14.5C-85.9,-1.1,-76.5,-15.8,-64.8,-24.7C-53.2,-33.7,-39.4,-36.7,-28.2,-41.2C-17,-45.6,-8.5,-51.4,2.3,-55C13.1,-58.6,26.2,-59.9,35,-54.4Z" 
+                                transform="translate(100 100)" />
+                                <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/perfil.png"/>
+                                <!-- CARGAR A LA CARPETA IMG UNA FOTO DEL PERFIL DE MI CARA EN FORMATO PNG -->
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Luis Torres</h1>
+                            <h3 class="home__subtitle">Physicist, Researcher, Programmer & Data Scientist</h3>
+                            <p class="home__description">High level researcher on high energy physics and 
+                                applied ANN, machine leaning and statistical analysis algorithms in physics.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= ABOUT ================= -->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">Let me introduce myself!</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                    <!-- SUBIR FOTO PARA LA SECCION ABOUT COMO about.jpg-->
+
+                    <div class="about__data">
+                        <p class="about__description">Physicist concerned about avant-garde topics of AI,
+                             machine learning, nuclear physics and high-energy phycics. 
+                             Someone who like to learn rigorous science and is a hard-working laboratory man. 
+                             With great interest on philosophical topics, humanities, and human development.</p>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">08+</span>
+                                <span class="about__info-name">Years <br> experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">20+</span>
+                                <span class="about__info-name">Completed <br> project</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">05+</span>
+                                <span class="about__info-name">Companies <br> worked</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/Luis Torres - CV.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= SKILLS ================= -->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My technical level</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!-- ================= SKILLS 1 ================= -->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <hi class="skills__title">Data science</hi>
+                                    <span class="skills__subtitle">With 10 years of experience</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data"> <!-- SKILL PYTHON -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">89%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL STEM -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">STEM Skills</h3>
+                                        <span class="skills__number">100%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__stem"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL STATISTICAL ANALYSIS -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Statistical Analysis</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__statisticalanalysis"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL ML & ANN Applied Algorithms -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">ML & ANN Applied Algorithms</h3>
+                                        <span class="skills__number">85%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mlann"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ================= SKILLS 2 ================= -->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-telescope skills__icon"></i>
+
+                                <div>
+                                    <hi class="skills__title">Physics</hi>
+                                    <span class="skills__subtitle">Applied mathematics on nature</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data"> <!-- SKILL Quantum Mechanics -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Quantum Mechanics</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__quantummechanics"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL Statistical Mechanics -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Statistical Mechanics</h3>
+                                        <span class="skills__number">100%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__statisticalmechanics"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL High-Energies -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">High Energy Physics</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__high-energiesphysics"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL Nuclear Physics -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Nuclear Physics</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__nuclearphysics"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!-- ================= SKILLS 3 ================= -->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-sigma skills__icon"></i>
+
+                                <div>
+                                    <hi class="skills__title">Mathematics</hi>
+                                    <span class="skills__subtitle">My all times abilities</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data"> <!-- SKILL Advanced Mathematical Analysis -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Advanced Mathematical Analysis</h3>
+                                        <span class="skills__number">100%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__advancedmathematicalanalysis"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL Calculus -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Calculus</h3>
+                                        <span class="skills__number">90%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__calculus"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL Geometry -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Geometry</h3>
+                                        <span class="skills__number">95%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__geometry"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data"> <!-- SKILL Linear Algebra -->
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Linear Algebra</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__linearalgebra"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ================= SKILLS 4 (ADD LANGUAGES) ================= -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= QUALIFICATION ================= -->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My Academical & Personal Journey</span>
+            
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target='#work'>
+                            <i class="uil uil-bag qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!-- ================= QUALIFICATION CONTENT 1 ================= -->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!-- ================= QUALIFICATION 1 ================= -->
+                            <div class="qualification__data">
+                               <div>
+                                    <h3 class="qualification__title">Scientific Disseminator</h3>
+                                    <span class="qualification__subtitle">Mexico - UG</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2022 - 2024
+                                    </div>
+                               </div> 
+
+                               <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                               </div>
+                            </div>
+
+                            <!-- ================= QUALIFICATION 2 ================= -->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                               </div>
+
+                                <div>
+                                     <h3 class="qualification__title">Research Collaboration</h3>
+                                     <span class="qualification__subtitle">Mexico - UG</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-schedule"></i>
+                                         2023 - 2026
+                                     </div>
+                                </div>    
+                            </div>
+
+                             <!-- ================= QUALIFICATION 3 ================= -->
+                            <div class="qualification__data">
+                                <div>
+                                     <h3 class="qualification__title">Data Scientist</h3>
+                                     <span class="qualification__subtitle">Mexico - UG</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-schedule"></i>
+                                         2024 - 2026
+                                     </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                               </div>
+                            </div>
+
+                             <!-- ================= QUALIFICATION 4 ================= -->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                               </div>
+
+                                <div>
+                                     <h3 class="qualification__title">PhyLab Statistics</h3>
+                                     <span class="qualification__subtitle">Mexico - UG & La Salle Collaboration</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-schedule"></i>
+                                         Since 2024
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ================= QUALIFICATION CONTENT 2 ================= -->
+                        <div class="qualification__content" data-content id="work">
+                            <!-- ================= QUALIFICATION 1 ================= -->
+                            <div class="qualification__data">
+                               <div>
+                                    <h3 class="qualification__title">Degree in Physics</h3>
+                                    <span class="qualification__subtitle">Mexico - Universidad de Guanajuato</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-schedule"></i>
+                                        2022 - 2025
+                                    </div>
+                               </div> 
+
+                               <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                               </div>
+                            </div>
+
+                            <!-- ================= QUALIFICATION 2 ================= -->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                               </div>
+
+                                <div>
+                                     <h3 class="qualification__title">Philosophy Degree</h3>
+                                     <span class="qualification__subtitle">Mexico - Universidad de Guanajuato</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-schedule"></i>
+                                         2025 - 2029
+                                     </div>
+                                </div>    
+                            </div>
+
+                             <!-- ================= QUALIFICATION 3 ================= -->
+                            <div class="qualification__data">
+                                <div>
+                                     <h3 class="qualification__title">Master of Nuclear Science</h3>
+                                     <span class="qualification__subtitle">Japan - Kyoto Sangyo University "京都産業⼤学"</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-schedule"></i>
+                                         2029 - 2033
+                                     </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                               </div>
+                            </div>
+
+                             <!-- ================= QUALIFICATION 4 ================= -->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                               </div>
+
+                                <div>
+                                     <h3 class="qualification__title">PhD in High Energy Physics</h3>
+                                     <span class="qualification__subtitle">Germany - Universität München</span>
+                                     <div class="qualification__calendar">
+                                         <i class="uil uil-schedule"></i>
+                                         2033 - 2037
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= SERVICES ================= -->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">What I Offer You</span>
+
+                <div class="services__container container grid">
+                    <!-- ================= SERVICES 1 ================= -->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-comparison services__icon"></i>
+                            <h3 class="services__title">Data Analysis &<br> Mathematical Modeling</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+    
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Data Analysis &<br> Mathematical Modeling</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I write ML algorithms to analyze & manage data.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Artificial Neural Networks algorithms applied for decision making.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I describe phenomena with the development of mathematical models.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I can create benefits for your company.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================= SERVICES 2 ================= -->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-flask services__icon"></i>
+                            <h3 class="services__title">Instrumentation &<br> Material Synthesis</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+    
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Instrumentation <br> Material Synthesis</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I write ML algorithms to analyze & manage data.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Artificial Neural Networks algorithms applied for decision making.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I describe phenomena with the development of mathematical models.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I can create benefits for your company.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ================= SERVICES 3 ================= -->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-atom services__icon"></i>
+                            <h3 class="services__title">PhyLab Statistics &<br> SymboPhy</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+    
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">PhyLab Statistics &<br> SymboPhy</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+    
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I write ML algorithms to analyze & manage data.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Artificial Neural Networks algorithms applied for decision making.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I describe phenomena with the development of mathematical models.</p>
+                                    </li>
+    
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I can create benefits for your company.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= PORTFOLIO ================= -->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">My Recent Work</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- ================= PORTFOLIO 1 ================= -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/" alt="" class="portfolio__img">
+                            <!-- PONER LA FOTO PARA EL PORTFOLIO 1 EN CARPETA IMG COMO JPG -->
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">PhyLab Statistics</h3>
+                                <p class="portfolio__description">From scientists for scientists, 
+                                    a compendium of algorithms for data analysis, research work, 
+                                    laboratories and processing of the information obtained and/or measured.
+                                    Mostly written in Python, but also including R and C.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- ================= PORTFOLIO 2 ================= -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/" alt="" class="portfolio__img">
+                            <!-- PONER LA FOTO PARA EL PORTFOLIO 2 EN CARPETA IMG COMO JPG -->
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">SymboPhy</h3>
+                                <p class="portfolio__description">Deep symbolic regression project 
+                                    inspired by Tenachi's article written about by the Python library PhySo.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- ================= PORTFOLIO 3 ================= -->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/" alt="" class="portfolio__img">
+                            <!-- PONER LA FOTO PARA EL PORTFOLIO 3 EN CARPETA IMG COMO JPG -->
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Twitter Bot @theGreatPhyBot</h3>
+                                <p class="portfolio__description">A proyect involving Twitter API's to
+                                    control an account with a bot that periodically generates tweets
+                                    about science and philosophy.
+                                </p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-double-right swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-double-left swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!-- ================= PROJECT IN MIND ================= -->
+
+
+            <!-- ================= TESTIMONIAL ================= -->
+
+
+            <!-- ================= CONTACT ME ================= -->
+
+        </main>
+        
+        <!-- ================= FOOTER ================= -->
+
+
+        <!-- ================= SCROLL TOP ================= -->
+
+
+        <!-- ================= SWIPER JS ================= -->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!-- ================= MAIN JS ================= -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
