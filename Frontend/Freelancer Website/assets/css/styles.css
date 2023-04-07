@@ -1,10 +1,10 @@
 :root{
     /* CUSTOM PROPERTIES */
-    --blanco: #ffffff;
-    --oscuro: #212121;
-    --primario: rgb(255, 193, 7);
-    --secundario: #0097a7;
-    --gris: #757575;
+    --white: #ffffff;
+    --dark: #212121;
+    --primary: rgb(255, 193, 7);
+    --secondary: #0097a7;
+    --grey: #757575;
 }
 
 html {
@@ -14,27 +14,27 @@ body {
     font-size: 16px; /* 1rem==10px */
     font-family: 'Krub', sans-serif;
 }
-.titulo {
+.title {
     text-align: center;
     font-size: 3.8rem;
 }
-.titulo span {
+.title span {
     font-size: 2rem;
 }
 
-.contenedor {
+.container {
     width: 120rem;
     margin: 0 auto;
 }
 .nav-bg {
-    background-color: var(--secundario);
+    background-color: var(--secondary);
 }
-.navegacion-principal {
+.navigation-principal {
     padding: 1rem;
     display: flex;
     justify-content: space-between;
 }
-.navegacion-principal a {
-    color: var(--blanco);
-    text-decoration: none; /* Quita el subrayado de los links */
+.navigation-principal a {
+    color: var(--white);
+    text-decoration: none;
 }
