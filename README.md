@@ -6,6 +6,7 @@ This is a collection of all my HTML, CSS, JavaScript, SQL, PHP, etc., codes conc
 - Responsive Personal Portfolio Website [[bedimcode](https://github.com/bedimcode), 2022]
 
 From [Juan Pablo De la torre Valdez](https://www.udemy.com/course/desarrollo-web-completo-con-html5-css3-js-php-y-mysql/#instructor-1) Udemy course...
+- Freelancer Website💼
 - Cafe Blog☕️
 - Real State Website🏠
 - APP to Schedule Appointments🏙️
