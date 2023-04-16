@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Something" Freelancer</title>
-    <link rel="preload" href="css/normalize.css"> <!-- EL ORDEN DE LA CARGA DE LOS ARCHIVOS CSS ---IMPORTA--- -->
+    <title>Freelance WebDev & Data Science</title>
+    <link rel="preload" href="css/normalize.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="css/styles.css" as="style">
@@ -14,13 +14,13 @@
 </head>
 <body>
     <header>
-        <h1 class="title">"Name of the freelancer" 
+        <h1 class="titulo">QV-137 
             <span>Freelancer</span>
         </h1>
     </header>
     
     <div class="nav-bg">
-        <nav class="navigation-principal container">
+        <nav class="navegacion-principal contenedor">
             <a href="#">Home</a>
             <a href="#">About Me</a>
             <a href="#">Clients</a>
@@ -28,113 +28,128 @@
         </nav>
     </div>
 
-    <section>
-        <h2 class="title">WebDev & Data Scientist <span>Freelancer</span></h2>
+    <section class="hero">
+        <div class="content-hero">
+            <h2>WebDev & Data Scientist <span>Freelancer</span></h2>
         
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" 
-            width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" 
-            stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="11" r="3" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-        </svg>
-        <p>City, State</p>
-
-        <a href="#">Contact</a>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" 
+                    width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" 
+                    stroke="#FFC107" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Gotham City, New York</p>
+            </div>
+    
+            <a class="boton" href="#">Contact</a>
+        </div>
     </section>
     
-    <main>
+    <main class="container shadow">
         <h2>My Services</h2>
-        
+
+        <div class="services">
+            <section class="service">
+                <h3>Web Development</h3>
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" 
+                        width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <polyline points="7 8 3 12 7 16" />
+                        <polyline points="17 8 21 12 17 16" />
+                        <line x1="14" y1="4" x2="10" y2="20" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Amet, voluptates aliquam. Iste numquam, fugiat dolorum dolorem 
+                mollitia soluta quis omnis? Quo voluptatum reiciendis eius corrupti,
+                vero veritatis tenetur ab fuga.</p>
+            </section>
+            
+            <section class="service">
+                <h3>Statistical Analysis</h3>
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-dots" 
+                        width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 3v18h18" />
+                        <circle cx="9" cy="9" r="2" />
+                        <circle cx="19" cy="7" r="2" />
+                        <circle cx="14" cy="15" r="2" />
+                        <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
+                        <path d="M15.088 13.328l2.837 -4.586" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Amet, voluptates aliquam. Iste numquam, fugiat dolorum dolorem 
+                mollitia soluta quis omnis? Quo voluptatum reiciendis eius corrupti,
+                vero veritatis tenetur ab fuga.</p>
+            </section>
+            
+            <section class="service">
+                <h3>ML & ANN applied algorithms</h3>
+                <div class="icons">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-python" 
+                        width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" 
+                        stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
+                        <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
+                        <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
+                        <line x1="11" y1="6" x2="11" y2="6.01" />
+                        <line x1="13" y1="18" x2="13" y2="18.01" />
+                    </svg>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Amet, voluptates aliquam. Iste numquam, fugiat dolorum dolorem 
+                mollitia soluta quis omnis? Quo voluptatum reiciendis eius corrupti,
+                vero veritatis tenetur ab fuga.</p>
+            </section>
+        </div>
+
         <section>
-            <h3>Web Development</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" 
-                width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" 
-                stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <polyline points="7 8 3 12 7 16" />
-                <polyline points="17 8 21 12 17 16" />
-                <line x1="14" y1="4" x2="10" y2="20" />
-            </svg>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Amet, voluptates aliquam. Iste numquam, fugiat dolorum dolorem 
-            mollitia soluta quis omnis? Quo voluptatum reiciendis eius corrupti,
-            vero veritatis tenetur ab fuga.</p>
-        </section>
-        
-        <section>
-            <h3>Statistical Analysis</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chart-dots" 
-                width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" 
-                stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M3 3v18h18" />
-                <circle cx="9" cy="9" r="2" />
-                <circle cx="19" cy="7" r="2" />
-                <circle cx="14" cy="15" r="2" />
-                <line x1="10.16" y1="10.62" x2="12.5" y2="13.5" />
-                <path d="M15.088 13.328l2.837 -4.586" />
-            </svg>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Amet, voluptates aliquam. Iste numquam, fugiat dolorum dolorem 
-            mollitia soluta quis omnis? Quo voluptatum reiciendis eius corrupti,
-            vero veritatis tenetur ab fuga.</p>
-        </section>
-        
-        <section>
-            <h3>ML & ANN applied algorithms</h3>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-python" 
-                width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" 
-                stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3" />
-                <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3" />
-                <path d="M8 9v-4a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-4a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4" />
-                <line x1="11" y1="6" x2="11" y2="6.01" />
-                <line x1="13" y1="18" x2="13" y2="18.01" />
-            </svg>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Amet, voluptates aliquam. Iste numquam, fugiat dolorum dolorem 
-            mollitia soluta quis omnis? Quo voluptatum reiciendis eius corrupti,
-            vero veritatis tenetur ab fuga.</p>
+            <h2>Contact Me</h2>
+
+            <form class="form">
+                <fieldset>
+                    <legend>Fill all data</legend>
+                    
+                    <div class="container-fields">
+                        <div class="field">
+                            <label>Name</label>
+                            <input class="input" type="text" placeholder="Your Name">
+                        </div>
+                    
+                        <div class="field">
+                            <label>Phone Number</label>
+                            <input class="input" type="tel" placeholder="Your Phone Number">
+                        </div>
+                        
+                        <div class="field">
+                            <label>E-mail</label>
+                            <input class="input" type="email" placeholder="Your E-mail">
+                        </div>
+                        
+                        <div class="field">
+                            <label>Message</label>
+                            <textarea class="input"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="align-right flex">
+                        <input class="boton w-sm-100" type="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
 
-    <section>
-        <h2>Contact Me</h2>
-
-        <form>
-            <fieldset>
-                <legend>Fill the space</legend>
-                <div>
-                    <label>Name</label>
-                    <input type="text" placeholder="Your Name">
-                </div>
-               
-                <div>
-                    <label>Phone Number</label>
-                    <input type="tel" placeholder="Your Phone Number">
-                </div>
-                
-                <div>
-                    <label>E-Mail</label>
-                    <input type="email" placeholder="Your E-mail">
-                </div>
-                
-                <div>
-                    <label>Message</label>
-                    <textarea></textarea>
-                </div>
-                
-                <div>
-                    <input type="submit" value="Submit">
-                </div>
-            </fieldset>
-        </form>
-    </section>
-
-    <footer>
-        <p>All rights reserved. Someone Freelancer.</p>
+    <footer class="footer">
+        <p>All rights reserved. QV-137 Freelancer.</p>
     </footer>
     
 
