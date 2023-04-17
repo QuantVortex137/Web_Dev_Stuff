@@ -13,13 +13,13 @@ html {
     box-sizing: border-box; /* Standarize Box Model */
     scroll-snap-type: y mandatory;
 }
-/* Scroll Snap */
+/* Scroll Snap *//*
 .services,
 .navigation-principal,
 .form {
     scroll-snap-align: center;
     scroll-snap-stop: always;
-}
+} */
 
 *, *:before, *:after {
     box-sizing: inherit;
