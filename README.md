@@ -5,7 +5,7 @@ This is a collection of all my HTML, CSS, JavaScript, SQL, PHP, etc., codes conc
 # Tech 💻
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,javascript,sql,php&theme=light&perline=3"/>
+    <img src="https://skillicons.dev/icons?i=html,css,javascript,mysql,php&theme=light&perline=5"/>
   </a>
 </p>
 
